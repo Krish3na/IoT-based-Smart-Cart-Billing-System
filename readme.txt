@@ -12,7 +12,7 @@ SMART KART:
 |invoiceNew.py ---> To generate Invoice of Bill                                 |
 |sendMsg.py ---> To send OTP and messages                                       |
 |sendEmail.py ---> To send invoice/image to mail                                |
-|                                                                               |                                                        |
+|                                                                               | 
 |                                                                               |
 |===============================================================================|
 
