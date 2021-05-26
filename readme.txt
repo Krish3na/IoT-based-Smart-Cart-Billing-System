@@ -1,17 +1,18 @@
 
 
-SHOPPING MART:
+SMART KART:
 |===============================================================================|
 |                                                                               |
 |                                                                               |
-|Example 8 new ----> To Run GUI                                                 |
-|html.py ---> Razor pay                                                         |
-|index.html ---> Original Copy of Razorpay                                      |
-|index1.html ---> Overwritten Copy of Razorpay                                  |
-|                                                                               |
-|For Basic DATABASE CREATION and EXCEL DATA UPLOAD FOLLOW import mysql file     |
-|                                                                               |
-|DATABSE ----> list.csv                                                         |
+|smartkart.py  ----> To Run main GUI                                            |
+|productslist.csv  ----> Is the database can be uploaded to aws-sql/mysql server|
+|app.py  ---> Razor pay                                                         |
+|app.html ---> Original Copy of Razorpay                                        |
+|app2.html ---> Overwritten Copy of Razorpay                                    |
+|invoiceNew.py ---> To generate Invoice of Bill                                 |
+|sendMsg.py ---> To send OTP and messages                                       |
+|sendEmail.py ---> To send invoice/image to mail                                |
+|                                                                               |                                                        |
 |                                                                               |
 |===============================================================================|
 
