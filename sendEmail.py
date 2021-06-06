@@ -36,7 +36,7 @@ def sendInvoice(emailCustomer):
 		maintype, subtype = ctype.split('/', 1)
 		msg.add_attachment(pdf_data, maintype=maintype, subtype=subtype, filename='invoice.pdf')
 
-	fromEmail = 'smartkartindia.pvtltd@gmail.com'
+	fromEmail = 'Your mail'
 	toEmail = emailCustomer
 
 	msg['Subject'] = 'SMART KART sent you a Mail. Please check !'
@@ -47,6 +47,6 @@ def sendInvoice(emailCustomer):
 
 	s.starttls()
 
-	s.login(fromEmail,'PrateekQ6')
+	s.login(fromEmail,'Your Password')
 	s.send_message(msg)
 	s.quit()
